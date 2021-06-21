@@ -14,43 +14,43 @@
 
 /*下面主函数是使用HAL库函数实现控制IO口输出*/
 
-//int main(void)
-//{
-//    HAL_Init();                    	 	//初始化HAL库    
-//    Stm32_Clock_Init(RCC_PLL_MUL9);   	//设置时钟,72M
-//	delay_init(72);               		//初始化延时函数
-//	LED_Init();							//初始化LED	
-//	
-//	while(1)
-//	{
-//        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED0对应引脚PB5拉低，亮，等同于LED0(0)
-//        HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_SET);   	//LED1对应引脚PE5拉高，灭，等同于LED1(1)
-//        delay_ms(500);											//延时500ms
-//        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_SET);   	//LED0对应引脚PB5拉高，灭，等同于LED0(1)
-//        HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED1对应引脚PE5拉低，亮，等同于LED1(0)
-//        delay_ms(500);                                      	//延时500ms 
-//	}
-//}
+int main(void)
+{
+    HAL_Init();                    	 	//初始化HAL库    
+    Stm32_Clock_Init(RCC_PLL_MUL9);   	//设置时钟,72M
+	delay_init(72);               		//初始化延时函数
+	LED_Init();							//初始化LED	
+	
+	while(1)
+	{
+        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED0对应引脚PB5拉低，亮，等同于LED0(0)
+        HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_SET);   	//LED1对应引脚PE5拉高，灭，等同于LED1(1)
+        delay_ms(500);											//延时500ms
+        HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_SET);   	//LED0对应引脚PB5拉高，灭，等同于LED0(1)
+        HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED1对应引脚PE5拉低，亮，等同于LED1(0)
+        delay_ms(500);                                      	//延时500ms 
+	}
+}
 
 /*下面主函数使用位带操作实现：*/
 
-int main(void)
-{ 
-    HAL_Init();                    	 	//初始化HAL库    
-    Stm32_Clock_Init(RCC_PLL_MUL9);   	//设置时钟,72M
-	delay_init(72);               			//初始化延时函数
-	LED_Init();							//初始化LED	
+//int main(void)
+//{ 
+//    HAL_Init();                    	 	//初始化HAL库    
+//    Stm32_Clock_Init(RCC_PLL_MUL9);   	//设置时钟,72M
+//	delay_init(72);               			//初始化延时函数
+//	LED_Init();							//初始化LED	
 
-	while(1)
-	{
-         LED0=0;			     	//LED0亮
-	     LED1=1;				 	//LED1灭
-		 delay_ms(500);
-		 LED0=1;					//LED0灭
-		 LED1=0;					//LED1亮
-		 delay_ms(500);
-	 }
-}
+//	while(1)
+//	{
+//         LED0=0;			     	//LED0亮
+//	     LED1=1;				 	//LED1灭
+//		 delay_ms(500);
+//		 LED0=1;					//LED0灭
+//		 LED1=0;					//LED1亮
+//		 delay_ms(500);
+//	 }
+//}
 
 
 
