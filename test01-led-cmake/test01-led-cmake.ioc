@@ -1,6 +1,6 @@
 #MicroXplorer Configuration settings - do not modify
 File.Version=6
-GPIO.groupedBy=
+GPIO.groupedBy=Group By Peripherals
 KeepUserPlacement=false
 Mcu.Family=STM32F1
 Mcu.IP0=NVIC
@@ -50,7 +50,7 @@ ProjectManager.AskForMigrate=true
 ProjectManager.BackupPrevious=false
 ProjectManager.CompilerOptimize=6
 ProjectManager.ComputerToolchain=false
-ProjectManager.CoupleFile=false
+ProjectManager.CoupleFile=true
 ProjectManager.CustomerFirmwarePackage=
 ProjectManager.DefaultFWLocation=true
 ProjectManager.DeletePrevious=true

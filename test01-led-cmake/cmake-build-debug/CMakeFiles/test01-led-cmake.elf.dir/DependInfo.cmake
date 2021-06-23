@@ -25,6 +25,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/gpio.c" "C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj"
   "C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/main.c" "C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj"
   "C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/stm32f1xx_hal_msp.c" "C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/stm32f1xx_it.c" "C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj"

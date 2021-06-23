@@ -96,6 +96,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Inc/gpio.h">
+			<Option target="test01-led-cmake.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Inc/main.h">
 			<Option target="test01-led-cmake.elf"/>
 		</Unit>
@@ -103,6 +106,9 @@
 			<Option target="test01-led-cmake.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Inc/stm32f1xx_it.h">
+			<Option target="test01-led-cmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/gpio.c">
 			<Option target="test01-led-cmake.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Ryan/Projects/stm32/test01-led-cmake/Core/Src/main.c">

@@ -141,6 +141,33 @@ test01-led-cmake.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test01-led-cmake.elf.dir\build.make CMakeFiles/test01-led-cmake.elf.dir/build
 .PHONY : test01-led-cmake.elf/fast
 
+Core/Src/gpio.obj: Core/Src/gpio.c.obj
+
+.PHONY : Core/Src/gpio.obj
+
+# target to build an object file
+Core/Src/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test01-led-cmake.elf.dir\build.make CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj
+.PHONY : Core/Src/gpio.c.obj
+
+Core/Src/gpio.i: Core/Src/gpio.c.i
+
+.PHONY : Core/Src/gpio.i
+
+# target to preprocess a source file
+Core/Src/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test01-led-cmake.elf.dir\build.make CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.i
+.PHONY : Core/Src/gpio.c.i
+
+Core/Src/gpio.s: Core/Src/gpio.c.s
+
+.PHONY : Core/Src/gpio.s
+
+# target to generate assembly for a file
+Core/Src/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test01-led-cmake.elf.dir\build.make CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.s
+.PHONY : Core/Src/gpio.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 
 .PHONY : Core/Src/main.obj
@@ -672,6 +699,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test01-led-cmake.elf
+	@echo ... Core/Src/gpio.obj
+	@echo ... Core/Src/gpio.i
+	@echo ... Core/Src/gpio.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s

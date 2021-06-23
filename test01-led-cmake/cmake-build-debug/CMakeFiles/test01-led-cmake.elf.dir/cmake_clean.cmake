@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj"

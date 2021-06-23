@@ -75,9 +75,22 @@ include CMakeFiles/test01-led-cmake.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test01-led-cmake.elf.dir/flags.make
 
+CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
+CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\gpio.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\gpio.c
+
+CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\gpio.c > CMakeFiles\test01-led-cmake.elf.dir\Core\Src\gpio.c.i
+
+CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\gpio.c -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\gpio.c.s
+
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\main.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\main.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.i: cmake_force
@@ -90,7 +103,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -103,7 +116,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -116,7 +129,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\syscalls.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -129,7 +142,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\sysmem.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -142,7 +155,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -155,12 +168,12 @@ CMakeFiles/test01-led-cmake.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/test01-led-cmake.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj: ../Core/Startup/startup_stm32f103zetx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/test01-led-cmake.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/test01-led-cmake.elf.dir/Core/Startup/startup_stm32f103zetx.s.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Core\Startup\startup_stm32f103zetx.s.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Core\Startup\startup_stm32f103zetx.s
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -173,7 +186,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -186,7 +199,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -199,7 +212,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -212,7 +225,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -225,7 +238,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -238,7 +251,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -251,7 +264,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -264,7 +277,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -277,7 +290,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -290,7 +303,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -303,7 +316,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -316,7 +329,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/test01-led-cmake.elf.dir/flags.make
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test01-led-cmake.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c C:\Users\Ryan\Projects\stm32\test01-led-cmake\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -329,6 +342,7 @@ CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 # Object files for target test01-led-cmake.elf
 test01__led__cmake_elf_OBJECTS = \
+"CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
@@ -353,6 +367,7 @@ test01__led__cmake_elf_OBJECTS = \
 # External object files for target test01-led-cmake.elf
 test01__led__cmake_elf_EXTERNAL_OBJECTS =
 
+test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Core/Src/gpio.c.obj
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Core/Src/stm32f1xx_it.c.obj
@@ -375,7 +390,7 @@ test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/build.make
 test01-led-cmake.elf: CMakeFiles/test01-led-cmake.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable test01-led-cmake.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ryan\Projects\stm32\test01-led-cmake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable test01-led-cmake.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test01-led-cmake.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/test01-led-cmake.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Ryan/Projects/stm32/test01-led-cmake/cmake-build-debug/test01-led-cmake.bin"
