@@ -129,9 +129,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.test01-led-cmake.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="test01-led-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test01-led-cmake" TARGET_NAME="test01-led-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test01-led-cmake" RUN_TARGET_NAME="test01-led-cmake.elf">
@@ -158,9 +158,9 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.test01-led-cmake.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD test01-led-cmake" />
       <item itemvalue="Makefile Target.clean" />
       <item itemvalue="Makefile Target.clean/fast" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD test01-led-cmake" />
     </list>
     <recent_temporary>
       <list>
