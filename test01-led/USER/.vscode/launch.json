@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "../OBJ/Template.axf",
+            "name": "Cortex Debug",
+            "device": "stm32f103zet6",
+            "interface": "swd"
+        }
+    ]
+}
