@@ -11,87 +11,118 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55b3fcd3-3d6e-436b-8214-752a6270c8bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_test01_led_cmake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_test01_led_cmake.xml" afterDir="false" />
+    <list default="true" id="55b3fcd3-3d6e-436b-8214-752a6270c8bf" name="Default Changelist" comment="update config of cmake and idea">
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/test02-mouse-cmake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Src/system_stm32f1xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Core/Startup/startup_stm32f103zetx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/STM32F103ZETX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-default/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-default/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-default/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-default/test02-mouse-cmake.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/test02-mouse-cmake.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/ASM.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test01-led-cmake.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test01-led-cmake.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01-led-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test01-led-cmake.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/LED_LED.dep" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/LED_LED.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/Template.axf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/Template.axf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/Template.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/Template.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/Template.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/Template.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/Template.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/Template.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/Template.map" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/Template.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/delay.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/delay.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/delay.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/delay.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/led.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/led.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/led.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/main.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/main.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/startup_stm32f103xe.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/startup_stm32f103xe.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_cortex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_cortex.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_cortex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_dma.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_dma.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_dma.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio_ex.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_gpio_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_msp.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_msp.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_msp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_pwr.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_pwr.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_pwr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc_ex.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_rcc_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_uart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_uart.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_uart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_usart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_usart.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_hal_usart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_it.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/stm32f1xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/sys.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/sys.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/sys.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/sys.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/system_stm32f1xx.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/system_stm32f1xx.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/system_stm32f1xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/system_stm32f1xx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/usart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/usart.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/OBJ/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/OBJ/usart.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvguix.Ryan" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvguix.Ryan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvoptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01-led/USER/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02-mouse/test02-mouse.ioc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,20 +159,10 @@
       <recent name="C:\Users\Ryan\Projects\stm32\test01-led-cmake" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test01-led-cmake.elf">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.Jlink">
     <configuration name="test01-led-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test01-led-cmake" TARGET_NAME="test01-led-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test01-led-cmake" RUN_TARGET_NAME="test01-led-cmake.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
@@ -156,11 +177,29 @@
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="Jlink" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-device stm32f103zet6 -if swd -speed 2000 -endian little" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test01-led-cmake" TARGET_NAME="test01-led-cmake.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="test01-led-cmake" RUN_TARGET_NAME="test01-led-cmake.elf">
+      <custom-gdb-server version="1" gdb-connect="localhost:2331" executable="C:\Program Files (x86)\SEGGER\JLink\JLinkGDBServer.exe" warmup-ms="0" download-type="NONE" reset-cmd="monitor reset" reset-after-download="true">
+        <debugger kind="GDB" isBundled="true" />
+      </custom-gdb-server>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jlink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test01-led-cmake" TARGET_NAME="test01-led-cmake.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="test01-led-cmake" RUN_TARGET_NAME="test01-led-cmake.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/0JLINK.cfg" reset-type="NONE" download-type="ALWAYS">
+        <debugger toolchainName="arm-none-eabi" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.test01-led-cmake.elf" />
+      <item itemvalue="Embedded GDB Server.Jlink" />
       <item itemvalue="Makefile Target.clean" />
       <item itemvalue="Makefile Target.clean/fast" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD test01-led-cmake" />
+      <item itemvalue="OpenOCD Download &amp; Run.Jlink" />
     </list>
     <recent_temporary>
       <list>
@@ -182,7 +221,27 @@
       <workItem from="1624327889970" duration="6940000" />
       <workItem from="1624353545484" duration="601000" />
       <workItem from="1624425041552" duration="309000" />
+      <workItem from="1624463201906" duration="316000" />
+      <workItem from="1624465563015" duration="3008000" />
+      <workItem from="1624548979533" duration="4000" />
+      <workItem from="1624552046745" duration="15000" />
+      <workItem from="1624552086985" duration="643000" />
     </task>
+    <task id="LOCAL-00001" summary="add gpio.h">
+      <created>1624463359686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624463359686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update config of cmake and idea">
+      <created>1624463477078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624463477078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,15 +259,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>97</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gpio.h" />
+    <MESSAGE value="update config of cmake and idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="update config of cmake and idea" />
   </component>
 </project>
