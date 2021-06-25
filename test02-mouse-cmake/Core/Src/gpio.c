@@ -22,6 +22,7 @@
 
 /* USER CODE BEGIN 0 */
 #include <usbd_hid.h>
+#include <debug.h>
 /* USER CODE END 0 */
 
 /*----------------------------------------------------------------------------*/
@@ -97,20 +98,21 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
-int8_t buf[3];
+unsigned char buf[4] = {0};
 extern USBD_HandleTypeDef hUsbDeviceFS;
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-    buf[0] = buf[1] = buf[2] = 0;
     if (GPIO_Pin == GPIO_PIN_0)
     {
-        buf[1] = 50;
+        buf[1] = -50;
+        debug("Left\n\r");
     }
     if (GPIO_Pin == GPIO_PIN_4)
     {
-        buf[1] = -50;
+        buf[1] = 50;
+        debug("Right\n\r");
     }
-    USBD_HID_SendReport(&hUsbDeviceFS, (uint8_t *)buf, 3);
+    USBD_HID_SendReport(&hUsbDeviceFS, buf, sizeof(buf));
 }
 /* USER CODE END 2 */
 
