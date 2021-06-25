@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -G "CodeBlocks - MinGW Makefiles" C:\Users\Ryan\Projects\stm32\test02-mouse-cmake
--- Minimal optimization, debug info included
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Ryan/Projects/stm32/test02-mouse-cmake/cmake-build-default
