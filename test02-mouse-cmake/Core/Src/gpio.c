@@ -21,7 +21,7 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
-
+#include <usbd_hid.h>
 /* USER CODE END 0 */
 
 /*----------------------------------------------------------------------------*/
@@ -37,6 +37,7 @@
         * Output
         * EVENT_OUT
         * EXTI
+     PA8   ------> RCC_MCO
 */
 void MX_GPIO_Init(void)
 {
@@ -73,6 +74,12 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : PA8 */
+  GPIO_InitStruct.Pin = GPIO_PIN_8;
+  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
   /*Configure GPIO pin : PB5 */
   GPIO_InitStruct.Pin = GPIO_PIN_5;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -90,7 +97,21 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
-
+int8_t buf[3];
+extern USBD_HandleTypeDef hUsbDeviceFS;
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    buf[0] = buf[1] = buf[2] = 0;
+    if (GPIO_Pin == GPIO_PIN_0)
+    {
+        buf[1] = 50;
+    }
+    if (GPIO_Pin == GPIO_PIN_4)
+    {
+        buf[1] = -50;
+    }
+    USBD_HID_SendReport(&hUsbDeviceFS, (uint8_t *)buf, 3);
+}
 /* USER CODE END 2 */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

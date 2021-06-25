@@ -19,12 +19,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
+#include "usart.h"
 #include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "debug.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -86,9 +88,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_USB_DEVICE_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+    debug("start\n\r");
+    uint8_t i = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -96,7 +101,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+      HAL_Delay(500);
+      i++;
+      debug("test\n\r");
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -145,6 +152,7 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+  HAL_RCC_MCOConfig(RCC_MCO, RCC_MCO1SOURCE_PLLCLK, RCC_MCODIV_1);
 }
 
 /* USER CODE BEGIN 4 */
