@@ -47,6 +47,7 @@ void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOE_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
@@ -69,11 +70,11 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PA0 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0;
+  /*Configure GPIO pins : PC0 PC1 PC2 PC3 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PA8 */
   GPIO_InitStruct.Pin = GPIO_PIN_8;
@@ -92,25 +93,45 @@ void MX_GPIO_Init(void)
   HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI0_IRQn);
 
+  HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI1_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI2_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI2_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI3_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI3_IRQn);
+
   HAL_NVIC_SetPriority(EXTI4_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI4_IRQn);
 
 }
 
 /* USER CODE BEGIN 2 */
-unsigned char buf[4] = {0};
+char buf[4] = {0};
 extern USBD_HandleTypeDef hUsbDeviceFS;
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
+    memset(buf, 0, sizeof(buf));
     if (GPIO_Pin == GPIO_PIN_0)
     {
-        buf[1] = -50;
-        debug("Left\n\r");
-    }
-    if (GPIO_Pin == GPIO_PIN_4)
-    {
         buf[1] = 50;
-        debug("Right\n\r");
+        debug("right\n\r");
+    }
+    if (GPIO_Pin == GPIO_PIN_1)
+    {
+        buf[2] = 50;
+        debug("down\n\r");
+    }
+    if (GPIO_Pin == GPIO_PIN_2)
+    {
+        buf[2] = -50;
+        debug("up\n\r");
+    }
+    if (GPIO_Pin == GPIO_PIN_3)
+    {
+        buf[1] = -50;
+        debug("left\n\r");
     }
     USBD_HID_SendReport(&hUsbDeviceFS, buf, sizeof(buf));
 }
