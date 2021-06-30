@@ -39,9 +39,11 @@ CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F1xx_H
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
 
+CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/debug.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/main.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
+CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/usart.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 CMakeFiles/test02-mouse-cmake.elf.dir/Core/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h

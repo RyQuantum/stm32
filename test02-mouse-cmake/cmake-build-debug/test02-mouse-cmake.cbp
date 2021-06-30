@@ -104,6 +104,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Ryan/Projects/stm32/test02-mouse-cmake/Core/Inc/debug.h">
+			<Option target="test02-mouse-cmake.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Ryan/Projects/stm32/test02-mouse-cmake/Core/Inc/dma.h">
 			<Option target="test02-mouse-cmake.elf"/>
 		</Unit>
