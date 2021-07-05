@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="test03-custom-usb-cmake" targetName="test03-custom-usb-cmake.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b28807f5-11fc-44af-92fa-97394e19f8fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_test03_custom_usb_cmake.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f1xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f103zetx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usb_device.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usb_device.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/test02-mouse-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/test02-mouse-cmake.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test03-custom-usb-cmake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ut2uhCPQtLbs6GwX7w47did064" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Inc" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\Projects\stm32\test03-custom-usb-cmake\Core\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test03-custom-usb-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test03-custom-usb-cmake" TARGET_NAME="test03-custom-usb-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test03-custom-usb-cmake" RUN_TARGET_NAME="test03-custom-usb-cmake.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.test03-custom-usb-cmake.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28807f5-11fc-44af-92fa-97394e19f8fe" name="Default Changelist" comment="" />
+      <created>1625470789205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625470789205</updated>
+      <workItem from="1625470790568" duration="4409000" />
+      <workItem from="1625477158334" duration="4955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
