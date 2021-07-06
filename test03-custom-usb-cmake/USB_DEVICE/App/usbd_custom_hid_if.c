@@ -92,19 +92,26 @@
 __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DESC_SIZE] __ALIGN_END =
 {
   /* USER CODE BEGIN 0 */
-  0x05, 0x01,
-  0x09, 0x00,
-  0xa1, 0x01,
-  0x09, 0x00,
-  0x15, 0x00,
-  0x26, 0xff, 0x00,
-  0x95, 0x01,
-  0x75, 0x08,
-  0x81, 0x00,
-  0x09, 0x00,
-  0x15, 0x00,
-  0x26, 0xff, 0x00,
-  0x91, 0x00,
+//  0x00,
+    0x05, 0x8c, /* USAGE_PAGE (ST Page) */
+    0x09, 0x01, /* USAGE (Demo Kit) */
+    0xa1, 0x01, /* COLLECTION (Application) */
+
+    // The Input report
+    0x09,0x03, // USAGE ID - Vendor defined
+    0x15,0x00, // LOGICAL_MINIMUM (0)
+    0x26,0x00, 0xFF, // LOGICAL_MAXIMUM (255)
+    0x75,0x08, // REPORT_SIZE (8bit)
+    0x95,CUSTOM_HID_EPIN_SIZE, // REPORT_COUNT (64Byte)
+    0x81,0x02, // INPUT (Data,Var,Abs)
+
+    // The Output report
+    0x09,0x04, // USAGE ID - Vendor defined
+    0x15,0x00, // LOGICAL_MINIMUM (0)
+    0x26,0x00,0xFF, // LOGICAL_MAXIMUM (255)
+    0x75,0x08, // REPORT_SIZE (8bit)
+    0x95,CUSTOM_HID_EPOUT_SIZE, // REPORT_COUNT (64Byte)
+    0x91,0x02, // OUTPUT (Data,Var,Abs)
   /* USER CODE END 0 */
   0xC0    /*     END_COLLECTION	             */
 };
@@ -200,12 +207,12 @@ static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
   * @param  len: The report length
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-
-int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *report, uint16_t len)
+/*
+static int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *report, uint16_t len)
 {
   return USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, report, len);
 }
-
+*/
 /* USER CODE END 7 */
 
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_IMPLEMENTATION */

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="test03-custom-usb-cmake" targetName="test03-custom-usb-cmake.elf" />
+      <config projectName="test02-mouse-cmake" targetName="test02-mouse-cmake.elf" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,51 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b28807f5-11fc-44af-92fa-97394e19f8fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/test02-mouse-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/test02-mouse-cmake.ioc" afterDir="false" />
+    <list default="true" id="e7020f62-d71c-43af-b8be-a269f5291fdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usb_device.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usb_device.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test02-mouse-cmake.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test02-mouse-cmake.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test02-mouse-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test02-mouse-cmake.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +69,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ut2uhCPQtLbs6GwX7w47did064" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1uQ9Y4ZZndxDsL9CtvKhM39awNe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,20 +83,17 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Inc" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ryan\Projects\stm32\test03-custom-usb-cmake\Core\Inc" />
-    </key>
-  </component>
-  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake">
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD test02-mouse-cmake">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test03-custom-usb-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test03-custom-usb-cmake" TARGET_NAME="test03-custom-usb-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test03-custom-usb-cmake" RUN_TARGET_NAME="test03-custom-usb-cmake.elf">
+    <configuration name="test02-mouse-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test02-mouse-cmake" TARGET_NAME="test02-mouse-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test02-mouse-cmake" RUN_TARGET_NAME="test02-mouse-cmake.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -66,48 +103,95 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Jlink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test02-mouse-cmake" TARGET_NAME="test02-mouse-cmake.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="test02-mouse-cmake" RUN_TARGET_NAME="test02-mouse-cmake.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/0JLINK.cfg" reset-type="RUN" download-type="ALWAYS">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="CMake Application.test03-custom-usb-cmake.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake" />
+      <item itemvalue="CMake Application.test02-mouse-cmake.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD test02-mouse-cmake" />
+      <item itemvalue="OpenOCD Download &amp; Run.Jlink" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b28807f5-11fc-44af-92fa-97394e19f8fe" name="Default Changelist" comment="" />
-      <created>1625470789205</created>
+      <changelist id="e7020f62-d71c-43af-b8be-a269f5291fdb" name="Default Changelist" comment="" />
+      <created>1624586993028</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625470789205</updated>
-      <workItem from="1625470790568" duration="4409000" />
-      <workItem from="1625477158334" duration="5005000" />
+      <updated>1624586993028</updated>
+      <workItem from="1624586999568" duration="10126000" />
+      <workItem from="1624620107617" duration="2149000" />
+      <workItem from="1624855877434" duration="12635000" />
+      <workItem from="1625469808777" duration="2693000" />
+      <workItem from="1625477483044" duration="723000" />
+      <workItem from="1625479843263" duration="729000" />
+      <workItem from="1625545730039" duration="2333000" />
     </task>
-    <task id="LOCAL-00001" summary="add source code of test03">
-      <created>1625483196121</created>
+    <task id="LOCAL-00001" summary="change init gpio_input to pull_down">
+      <created>1624613320302</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1625483196121</updated>
+      <updated>1624613320302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="integrate uart API">
+      <created>1624622230819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624622230819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add move up, down, left, right functionalities">
+      <created>1624857858190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624857858190</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add wheel up and down function">
+      <created>1625041163399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625041163399</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stm32 can send 64 byte data every 1s">
+      <created>1625548040865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625548040865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add source code of test03" />
-    <option name="LAST_COMMIT_MESSAGE" value="add source code of test03" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change init gpio_input to pull_down" />
+    <MESSAGE value="integrate uart API" />
+    <MESSAGE value="add move up, down, left, right functionalities" />
+    <MESSAGE value="add wheel up and down function" />
+    <MESSAGE value="stm32 can send 64 byte data every 1s" />
+    <option name="LAST_COMMIT_MESSAGE" value="stm32 can send 64 byte data every 1s" />
   </component>
 </project>

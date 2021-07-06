@@ -9,15 +9,16 @@
   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software component is licensed by ST under Ultimate Liberty license
+  * SLA0044, the "License"; You may not use this file except in compliance with
+  * the License. You may obtain a copy of the License at:
+  *                             www.st.com/SLA0044
   *
   ******************************************************************************
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <usbd_customhid.h>
 #include "main.h"
 #include "dma.h"
 #include "usart.h"
@@ -57,7 +58,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+extern USBD_HandleTypeDef hUsbDeviceFS;
 /* USER CODE END 0 */
 
 /**
@@ -67,7 +68,8 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+    uint32_t preticks;
+    uint8_t report[64] = {1,2,3,4,5,6,7,8};
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -100,7 +102,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+      if(HAL_GetTick() - preticks > 1000)
+      {
+          preticks = HAL_GetTick();
+          USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, report, 64);
+      }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
