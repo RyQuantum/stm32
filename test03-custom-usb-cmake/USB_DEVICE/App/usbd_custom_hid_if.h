@@ -31,7 +31,7 @@
 #include "usbd_customhid.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+extern int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *report, uint16_t len);
 /* USER CODE END INCLUDE */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY

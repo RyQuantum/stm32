@@ -28,7 +28,7 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-extern char debug_buf[128];
+#include "stdio.h"
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;

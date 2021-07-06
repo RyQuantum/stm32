@@ -9,24 +9,24 @@
   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software component is licensed by ST under Ultimate Liberty license
+  * SLA0044, the "License"; You may not use this file except in compliance with
+  * the License. You may obtain a copy of the License at:
+  *                             www.st.com/SLA0044
   *
   ******************************************************************************
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <stdarg.h>
 #include "main.h"
-#include "dma.h"
 #include "usart.h"
 #include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <usbd_customhid.h>
+#include "usbd_custom_hid_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +57,23 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-extern USBD_HandleTypeDef hUsbDeviceFS;
+
+#define TX_BUF_LEN  256     /* 发送缓冲区容量，根据需要进行调整 */
+uint8_t TxBuf[TX_BUF_LEN];  /* 发送缓冲区                       */
+
+void MyPrintf(const char *__format, ...)
+{
+    va_list ap;
+    va_start(ap, __format);
+    /* 清空发送缓冲区 */
+    memset(TxBuf, 0x0, TX_BUF_LEN);
+    /* 填充发送缓冲区 */
+    vsnprintf((char*)TxBuf, TX_BUF_LEN, (const char *)__format, ap);
+    va_end(ap);
+    int len = strlen((const char*)TxBuf);
+    /* 往串口发送数据 */
+    HAL_UART_Transmit(&huart1, (uint8_t*)&TxBuf, len, 0xFFFF);
+}
 /* USER CODE END 0 */
 
 /**
@@ -67,8 +83,12 @@ extern USBD_HandleTypeDef hUsbDeviceFS;
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-    uint32_t preticks;
-    uint8_t report[64] = {1,2,3,4,5,6,7,8};
+    uint8_t i;
+    uint8_t hid_test[64];
+    for(i = 0; i < 64; i++)
+    {
+        hid_test[i] = 63 - i;
+    }
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -89,9 +109,8 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_DMA_Init();
-  MX_USB_DEVICE_Init();
   MX_USART1_UART_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -100,12 +119,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+        HAL_Delay(1000);
+//      MyPrintf("test\r\n");
+        USBD_CUSTOM_HID_SendReport_FS(hid_test, 64);
     /* USER CODE END WHILE */
-      if(HAL_GetTick() - preticks > 1000)
-      {
-          preticks = HAL_GetTick();
-          USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, report, 64);
-      }
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

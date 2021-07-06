@@ -11,25 +11,34 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="222ff127-40d5-4074-a3a8-1f27d4f1b532" name="Default Changelist" comment="">
+    <list default="true" id="b734af4c-fcb9-4954-894f-d9cfe33976bc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/debug.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/dma.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1uvrHNr3twJ8lc7o46iHAAgTAKu" />
+  <component name="ProjectId" id="1uw3HWrhQgMrZS0uE5xQBjbcklh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +67,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -83,28 +93,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="222ff127-40d5-4074-a3a8-1f27d4f1b532" name="Default Changelist" comment="" />
-      <created>1625556814634</created>
+      <changelist id="b734af4c-fcb9-4954-894f-d9cfe33976bc" name="Default Changelist" comment="" />
+      <created>1625562739801</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625556814634</updated>
-      <workItem from="1625556828147" duration="2500000" />
+      <updated>1625562739801</updated>
+      <workItem from="1625562751169" duration="4161000" />
     </task>
-    <task id="LOCAL-00001" summary="correct format">
-      <created>1625557686630</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1625557686630</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="correct format" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct format" />
   </component>
 </project>

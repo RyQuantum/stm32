@@ -92,26 +92,21 @@
 __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DESC_SIZE] __ALIGN_END =
 {
   /* USER CODE BEGIN 0 */
-//  0x00,
-    0x05, 0x8c, /* USAGE_PAGE (ST Page) */
-    0x09, 0x01, /* USAGE (Demo Kit) */
-    0xa1, 0x01, /* COLLECTION (Application) */
-
-    // The Input report
-    0x09,0x03, // USAGE ID - Vendor defined
-    0x15,0x00, // LOGICAL_MINIMUM (0)
-    0x26,0x00, 0xFF, // LOGICAL_MAXIMUM (255)
-    0x75,0x08, // REPORT_SIZE (8bit)
-    0x95,CUSTOM_HID_EPIN_SIZE, // REPORT_COUNT (64Byte)
-    0x81,0x02, // INPUT (Data,Var,Abs)
-
-    // The Output report
-    0x09,0x04, // USAGE ID - Vendor defined
-    0x15,0x00, // LOGICAL_MINIMUM (0)
-    0x26,0x00,0xFF, // LOGICAL_MAXIMUM (255)
-    0x75,0x08, // REPORT_SIZE (8bit)
-    0x95,CUSTOM_HID_EPOUT_SIZE, // REPORT_COUNT (64Byte)
-    0x91,0x02, // OUTPUT (Data,Var,Abs)
+    0x05, 0x01,                    // USAGE_PAGE (Generic Desktop)
+    0x09, 0x00,                    // USAGE (Undefined)
+    0xa1, 0x01,                    // COLLECTION (Application)
+    0x09, 0x00,                    //   USAGE (Undefined)
+    0x15, 0x00,                    //   LOGICAL_MINIMUM (0)
+    0x26, 0xff, 0x00,              //   LOGICAL_MAXIMUM (255)
+    0x95, 0x40,                    //   REPORT_COUNT (64)
+    0x75, 0x08,                    //   REPORT_SIZE (8)
+    0x81, 0x02,                    //   INPUT (Data,Var,Abs)
+    0x09, 0x00,                    //   USAGE (Undefined)
+    0x15, 0x00,                    //   LOGICAL_MINIMUM (0)
+    0x26, 0xff, 0x00,              //   LOGICAL_MAXIMUM (255)
+    0x95, 0x40,                    //   REPORT_COUNT (64)
+    0x75, 0x08,                    //   REPORT_SIZE (8)
+    0x91, 0x02,                    //   OUTPUT (Data,Var,Abs)
   /* USER CODE END 0 */
   0xC0    /*     END_COLLECTION	             */
 };
@@ -131,7 +126,7 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 extern USBD_HandleTypeDef hUsbDeviceFS;
 
 /* USER CODE BEGIN EXPORTED_VARIABLES */
-
+extern void MyPrintf(const char *__format, ...);
 /* USER CODE END EXPORTED_VARIABLES */
 /**
   * @}
@@ -196,6 +191,14 @@ static int8_t CUSTOM_HID_DeInit_FS(void)
 static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
 {
   /* USER CODE BEGIN 6 */
+    uint8_t i,USB_Recive_Buffer[64];
+    USBD_CUSTOM_HID_HandleTypeDef     *hhid = (USBD_CUSTOM_HID_HandleTypeDef *)(hUsbDeviceFS.pClassData);
+
+    for(i=0;i<64;i++)
+    {
+        USB_Recive_Buffer[i]=hhid->Report_buf[i];  //把接收到的数据送到自定义的缓存区保存（Report_buf[i]为USB的接收缓存区）
+        MyPrintf("USB_Recive_Buffer[%d] = 0x%02X \r\n",i,USB_Recive_Buffer[i]); //打印接收到的信息，确认是否正确，调试用
+    }
   return (USBD_OK);
   /* USER CODE END 6 */
 }
@@ -207,12 +210,12 @@ static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
   * @param  len: The report length
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-/*
-static int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *report, uint16_t len)
+
+int8_t USBD_CUSTOM_HID_SendReport_FS(uint8_t *report, uint16_t len)
 {
   return USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, report, len);
 }
-*/
+
 /* USER CODE END 7 */
 
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_IMPLEMENTATION */
