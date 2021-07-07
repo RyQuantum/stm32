@@ -18,7 +18,6 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <stdarg.h>
 #include "main.h"
 #include "usart.h"
 #include "usb_device.h"
@@ -27,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_custom_hid_if.h"
+#include <stdarg.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -119,9 +119,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-        HAL_Delay(1000);
-//      MyPrintf("test\r\n");
-        USBD_CUSTOM_HID_SendReport_FS(hid_test, 64);
+//        HAL_Delay(1000);
+//        USBD_CUSTOM_HID_SendReport_FS(hid_test, 64);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

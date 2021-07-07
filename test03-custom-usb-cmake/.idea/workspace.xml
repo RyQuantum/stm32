@@ -11,34 +11,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b734af4c-fcb9-4954-894f-d9cfe33976bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test02-mouse-cmake/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
+    <list default="true" id="b734af4c-fcb9-4954-894f-d9cfe33976bc" name="Default Changelist" comment="add gpio">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01-led/USER/JLinkLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/JLinkLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvguix.Ryan" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvguix.Ryan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01-led/USER/LED.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/../test01-led/USER/LED.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/runConfigurations/OCD_test02_mouse_cmake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test02-mouse-cmake/.idea/runConfigurations/OCD_test02_mouse_cmake.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_test03_custom_usb_cmake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_test03_custom_usb_cmake.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/debug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dma.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/dma.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_custom_hid_if.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_desc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/Target/usbd_conf.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/test03-custom-usb-cmake.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +58,6 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD test03-custom-usb-cmake">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test03-custom-usb-cmake.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test03-custom-usb-cmake" TARGET_NAME="test03-custom-usb-cmake.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test03-custom-usb-cmake" RUN_TARGET_NAME="test03-custom-usb-cmake.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -98,11 +81,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625562739801</updated>
-      <workItem from="1625562751169" duration="4161000" />
+      <workItem from="1625562751169" duration="4284000" />
+      <workItem from="1625568815440" duration="598000" />
+      <workItem from="1625626977849" duration="7173000" />
+      <workItem from="1625649695320" duration="459000" />
+      <workItem from="1625650381524" duration="2143000" />
     </task>
+    <task id="LOCAL-00001" summary="integrate and verify both send and receive function">
+      <created>1625567635668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625567635668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="integrate and verify both send and receive function" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrate and verify both send and receive function" />
   </component>
 </project>
