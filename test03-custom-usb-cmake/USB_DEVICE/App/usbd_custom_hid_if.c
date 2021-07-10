@@ -194,10 +194,10 @@ static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
     uint8_t i,USB_Recive_Buffer[64];
     USBD_CUSTOM_HID_HandleTypeDef     *hhid = (USBD_CUSTOM_HID_HandleTypeDef *)(hUsbDeviceFS.pClassData);
 
-    for(i=0;i<64;i++)
+    for (i = 0; i < 64; i++)
     {
-        USB_Recive_Buffer[i]=hhid->Report_buf[i];  //把接收到的数据送到自定义的缓存区保存（Report_buf[i]为USB的接收缓存区）
-        MyPrintf("USB_Recive_Buffer[%d] = 0x%02X \r\n",i,USB_Recive_Buffer[i]); //打印接收到的信息，确认是否正确，调试用
+        USB_Recive_Buffer[i] = hhid->Report_buf[i];  //把接收到的数据送到自定义的缓存区保存（Report_buf[i]为USB的接收缓存区）
+        MyPrintf("USB_Recive_Buffer[%d] = 0x%02X \r\n", i, USB_Recive_Buffer[i]); //打印接收到的信息，确认是否正确，调试用
     }
   return (USBD_OK);
   /* USER CODE END 6 */
