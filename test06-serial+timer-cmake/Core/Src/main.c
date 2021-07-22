@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h";
+#include "string.h";
 
 #define LED1_ON() HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);
 #define LED2_ON() HAL_GPIO_WritePin(GPIOE, GPIO_PIN_5, GPIO_PIN_RESET);
@@ -101,6 +102,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
                     break;
             }
             HAL_UART_Transmit(&huart1, str_buff, sizeof str_buff, 10000);
+            memset(str_buff, 0, sizeof str_buff);
             HAL_UART_Receive_IT(&huart1, Rx_data, 3);
         }
     }

@@ -11,8 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7db117f-ba17-45c5-940c-cfdbbc11f1ee" name="Default Changelist" comment="add the source code of test06-serial-timer-cmake">
+    <list default="true" id="a7db117f-ba17-45c5-940c-cfdbbc11f1ee" name="Default Changelist" comment="add clion config">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test06-serial+timer-cmake2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test07-adc-cmake/.idea/test07-adc-cmake2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test05-serial-cmake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test05-serial-cmake/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test07-adc-cmake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test07-adc-cmake/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -35,18 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.test06-serial+timer-cmake.elf">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -57,6 +62,23 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test06-serial+timer-cmake.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test06-serial+timer-cmake" TARGET_NAME="test06-serial+timer-cmake.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="test06-serial+timer-cmake" RUN_TARGET_NAME="test06-serial+timer-cmake.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/0JLINK.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.test06-serial+timer-cmake.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.test06-serial+timer-cmake.elf" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +90,8 @@
       <updated>1626420017403</updated>
       <workItem from="1626420031049" duration="3612000" />
       <workItem from="1626513903585" duration="28000" />
+      <workItem from="1626513990980" duration="85000" />
+      <workItem from="1626967110062" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="add the source code of test06-serial-timer-cmake">
       <created>1626423112275</created>
@@ -76,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626423112275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add clion config">
+      <created>1626514060375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626514060375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add the source code of test06-serial-timer-cmake" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the source code of test06-serial-timer-cmake" />
+    <MESSAGE value="add clion config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clion config" />
   </component>
 </project>
